@@ -6,10 +6,10 @@
 The goal of this project is to create an image classification model that can successfully classify between X-rays of uninfected and infected lungs. The data set we're using is a set of five and a half thousand X-ray images from Guangzhou Women and Children’s Medical Center. The data has around a four to one ratio between infected lung images and uninfected lung images. After testing a few models, the model that we chose to use was a Convolutional neural network (CNN).
 
 ## Business Problem
-The goal of our project is to build an image classification model that can correctly identify between x-rays of infected and healthy lungs. It's important that our model has high accuracy. With a low accuracy our model would misdiagnose too much. 
+Death rate from Pneumonia has hit with an all time high. As of 2018 the cdc reported 1.5 mil ER visits, a 16% increase in total deaths in 2020, and among those deaths and more around the world the WHO reports ~2.5 mil deaths of children under five every year. Due to this large number of deaths, Pneumonia is consistently estimated as the leading cause of childhood mortality. The Guangzhou Women and Children's Medical Center recognizes the severity of this problem and has asked us to build an image classification model that correctly identifies between x-rays of lungs infected with Pneumonia and lungs that are healthy. 
 
 ## Data
-Our data was five and a half thousand X-ray images from Guangzhou Women and Children’s Medical Center. Our data was also consentaily and ethically obtained. The data did contain some significant class imbalance. We had four times as many images of infected lungs compared to images of uninfected lungs.
+Our data includes 5.5k X-ray images from the Guangzhou Women and Children’s Medical Center. Our data was also ethically obtained. The data did contain some significant class imbalance. We had four times as many images of infected lungs compared to images of uninfected lungs.
 
 ## Methods
 ![CNN image](https://user-images.githubusercontent.com/82346896/142509391-253d3584-9229-49d7-9fbb-fa67b224fcca.JPG)
