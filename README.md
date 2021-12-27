@@ -28,9 +28,15 @@ Please review our full analysis in [our Jupyter Notebook](https://github.com/281
 ## Repository Structure
 
 ```
-├── code                                <- Folder containing preparation of data and visuals
-├── data                                <- Folder containing all X-ray images used  
-├── images                              <- Folder containing images used in the notebook 
-├── Final_Notebook.ipynb                <- Final notebook
-├── README.md                           <- The file you're currently reading from
+├── code
+│   ├── __init__.py
+│   ├── preparation.py
+│   └── preparation.py
+├── data/chest_xray
+│   ├── test/
+│   ├── train/
+│   └── val/
+├── .gitignore
+├── README.md
+└── chest_xray_image_classification.ipynb
 ```
