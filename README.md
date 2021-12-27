@@ -23,7 +23,7 @@ The final accuracy of our model was 91%. We're pretty confident in our model's o
 We recommend our model be used in tandem with a doctor's opinion. The model could act as a second check to support the doctor and even catch misdiagnoses from the doctor. If we wanted our model to get even closer to 100% accuracy then we would need more data. With the limited amount of images we did it was challenging to properly train the model. On top of that, getting some demographic info on each patient could be very helpful for our model as well. Things like pre-existing conditions and other possible risk factors for pneumonia. 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](https://github.com/281clo/X-Ray-Pneumonia-Classification/blob/main/Draft_Notebook.ipynb) or our [presentation](https://docs.google.com/presentation/d/1xeCiQLU2krOBAP_BNpBU9bXrcZJKGTksFrjdiuqu_Ck/edit?usp=sharing).
+Please review our full analysis in our [Jupyter Notebook](./chest_xray_image_classification.ipynb) or our [presentation](./xray_image_classification_pres.pdf).
 
 ## Repository Structure
 
@@ -38,5 +38,6 @@ Please review our full analysis in [our Jupyter Notebook](https://github.com/281
 │   └── val/
 ├── .gitignore
 ├── README.md
-└── chest_xray_image_classification.ipynb
+├── chest_xray_image_classification.ipynb
+└── xray_image_classification_pres.pdf
 ```
